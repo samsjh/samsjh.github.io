@@ -17,14 +17,43 @@
    - Source: GitHub Actions
    - Ready to serve content at https://samsjh.github.io/
 
-## Next Steps
+## Next Steps to Deploy
 
-The GitHub Actions workflow will automatically deploy the Financial Planner application. You can:
+### Option 1: Merge this PR (Recommended)
+1. Review and merge this pull request to the main branch
+2. The workflow will automatically trigger and deploy the Financial Planner application
+3. Wait 2-3 minutes for the deployment to complete
+4. Visit https://samsjh.github.io/ to see your live site
 
-1. **Wait for automatic deployment**: The workflow will run automatically on the next push to main
-2. **Trigger manual deployment**: Go to [Actions](https://github.com/samsjh/samsjh.github.io/actions) → "Deploy Financial Planner to GitHub Pages" → "Run workflow"
+### Option 2: Manual Trigger (Deploy Immediately)
+To deploy the Financial Planner app right now without waiting for this PR to merge:
 
-Once the workflow completes (typically 2-3 minutes), the Financial Planner app will be live at https://samsjh.github.io/
+1. Go to the [Actions tab](https://github.com/samsjh/samsjh.github.io/actions)
+2. Click on "Deploy Financial Planner to GitHub Pages" workflow
+3. Click the "Run workflow" button (top right)
+4. Select "main" branch
+5. Click "Run workflow"
+6. Wait 2-3 minutes for completion
+7. Visit https://samsjh.github.io/ to see your live site
+
+## What Gets Deployed
+
+When the workflow runs, it will:
+- ✅ Fetch the latest code from `samsjh/financial-planner` repository
+- ✅ Build the Next.js application as a static site
+- ✅ Deploy the built files to GitHub Pages
+- ✅ Make your Financial Planner app accessible at https://samsjh.github.io/
+
+## Verification
+
+Once the workflow completes (check the [Actions tab](https://github.com/samsjh/samsjh.github.io/actions)), verify the deployment by:
+1. Visiting https://samsjh.github.io/ in your browser
+2. You should see the Financial Planner application (not this placeholder page)
+3. The deployment includes the full Financial Planner functionality
+
+## Recent Successful Deployments
+
+The workflow has already run successfully on the main branch. Since the repository is now public, the site should already be accessible. However, the current live version may still show the old "repository not public" message. Running the workflow again (or merging this PR) will update it with the latest deployment.
 
 ## Verification
 
