@@ -2,6 +2,21 @@
 
 This repository hosts the [Financial Planner](https://github.com/samsjh/financial-planner) web application on GitHub Pages.
 
+## ⚠️ Important: Repository Visibility
+
+**This repository must be PUBLIC for the site to be accessible at https://samsjh.github.io/**
+
+GitHub Pages for user/organization sites (username.github.io) requires the repository to be public unless you have GitHub Pro, Team, or Enterprise.
+
+### To make the repository public:
+1. Go to [Repository Settings](https://github.com/samsjh/samsjh.github.io/settings)
+2. Scroll down to the "Danger Zone" section
+3. Click "Change repository visibility"
+4. Select "Make public"
+5. Confirm the change
+
+Once the repository is public, the GitHub Pages site will be accessible at https://samsjh.github.io/
+
 ## How it works
 
 This repository is configured to automatically build and deploy the Financial Planner application from the `samsjh/financial-planner` repository to GitHub Pages at `https://samsjh.github.io`.
