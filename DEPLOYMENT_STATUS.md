@@ -57,21 +57,18 @@ The workflow has already run successfully on the main branch. Since the reposito
 
 ## Verification
 
-Once you make the repository public, you can verify the deployment by:
-
+Once the workflow completes (check the [Actions tab](https://github.com/samsjh/samsjh.github.io/actions)), verify the deployment by:
 1. Visiting https://samsjh.github.io/ in your browser
-2. You should see the Financial Planner application
-3. The build includes these pages:
-   - `/` (main page, 218 kB)
-   - `/_not-found` (404 page)
+2. You should see the Financial Planner application (not this placeholder page)
+3. The deployment includes the full Financial Planner functionality
 
 ## Need Help?
 
-If you have any questions or issues after making the repository public, please:
+If you have any questions or issues, please:
 1. Check the [GitHub Actions runs](https://github.com/samsjh/samsjh.github.io/actions)
 2. Review the build logs for any errors
 3. Ensure GitHub Pages is enabled in Settings → Pages (should be set to "GitHub Actions" as the source)
 
 ## Summary
 
-**Everything is set up correctly!** The only blocker is repository visibility. Once you make the repository public, your Financial Planner app will be live at https://samsjh.github.io/
+**Everything is set up correctly!** The repository is now public and the deployment workflow is ready. Either merge this PR to trigger automatic deployment, or manually run the workflow from the Actions tab to deploy immediately. Your Financial Planner app will be live at https://samsjh.github.io/ within 2-3 minutes of the workflow completing.
