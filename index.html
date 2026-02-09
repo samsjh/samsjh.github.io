@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial Planner - Loading...</title>
+    <title>Financial Planner - Deploying...</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -48,26 +48,40 @@
         a:hover {
             text-decoration: underline;
         }
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid white;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 1rem auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>🚀 Financial Planner</h1>
         <p>
-            The Financial Planner application is being deployed to this GitHub Pages site.
+            The Financial Planner application is now being deployed to this GitHub Pages site.
         </p>
         <div class="status">
-            <p><strong>⚠️ Repository Visibility Required</strong></p>
+            <p><strong>✅ Repository is Now Public</strong></p>
+            <div class="spinner"></div>
             <p>
-                To make this site accessible at <code>https://samsjh.github.io/</code> 
-                the repository must be set to <strong>public</strong>.
+                The deployment workflow is being triggered to build and deploy the Financial Planner application.
             </p>
             <p>
-                Please go to repository Settings → General → Danger Zone → Change repository visibility 
-                and set it to <strong>Public</strong>.
+                This page will be replaced with the full application once the deployment completes.
+                This typically takes 2-3 minutes.
             </p>
             <p style="margin-top: 1rem; font-size: 0.9rem;">
-                View the <a href="https://github.com/samsjh/financial-planner" target="_blank">Financial Planner source code</a>
+                View the <a href="https://github.com/samsjh/financial-planner" target="_blank">Financial Planner source code</a> 
+                or check the <a href="https://github.com/samsjh/samsjh.github.io/actions" target="_blank">deployment status</a>
             </p>
         </div>
     </div>
